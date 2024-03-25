@@ -1,0 +1,57 @@
+/* Styles for the contact form */
+.contact {
+    max-width: 600px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.contactTitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 15px;
+    border-bottom: 3px solid var(--color2);
+}
+
+.contactForm{
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.contactForm div {
+    margin-bottom: 15px;
+}
+
+.contactForm label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contactForm textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.contactForm button[type="submit"] {
+    background-color: var(--color3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactForm button[type="submit"]:hover {
+    background-color: var(--color2);
+}

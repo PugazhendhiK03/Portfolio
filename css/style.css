@@ -1,0 +1,74 @@
+:root{
+    --color1: #20B2AA;
+    --color2: #FBE175;
+    --color3: #FAB7c7;
+    --color4: #D8F3F9;
+    --color5: #1a1a1a;
+    --color6: #525252;
+    --color7: #ffffff;
+    --blur: rgba(255, 255, 255, 0.5);
+    --border: rgba(255, 255, 255, 0.3);
+    --box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+body{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 3rem;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.intro{
+    width: 25%;
+    height: 33rem;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: var(--blur);
+    box-shadow: 0 1px 12px var(--box-shadow);
+    position: relative;
+    top: 4rem;
+}
+
+.main{
+    width: 65%;
+    height: 35rem;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: var(--blur);
+    box-shadow: 0 1px 12px var(--box-shadow);
+    position: relative;
+    top: 2rem;
+}
+
+.navbar{
+    width: 10%;
+    height: 30rem;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: var(--blur);
+    box-shadow: 0 1px 12px var(--box-shadow);
+    position: relative;
+    top: 3rem;
+}
+
+button{
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: 600;
+    box-shadow: 0 1px 12px var(--box-shadow);
+    /* background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    background: var(--color2);
+}
+
+button > a{
+    color: white;
+}

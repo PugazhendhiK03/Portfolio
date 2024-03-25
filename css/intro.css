@@ -1,0 +1,91 @@
+.profileImage{
+    width: 200px;
+    height: 200px;
+}
+
+.profileImage > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    position: relative;
+    bottom: 4rem;
+    left: 3rem;
+    box-shadow: 0 1px 12px var(--box-shadow);
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 3rem;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color5);
+}
+
+.position{
+    color: var(--color6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.introText > ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    right: 1.4rem;
+    bottom: .7rem;
+}
+
+.introText > ul > li > a{
+    font-size: 1.5rem;
+    color: #3543ff;
+}
+
+.introText > ul > li > a > .fa-instagram{
+    color: #ff00dd;
+}
+
+.info{
+    width: 15rem;
+    height: 10rem;
+    background: var(--blur);
+    border-radius: 16px;
+    position: relative;
+    left: 1.8rem;
+    bottom: 4rem;
+    box-shadow: 0 1px 12px var(--box-shadow);
+    display: flex;
+    align-items: center;
+}
+
+.info > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.info > ul > li > a{
+    color: var(--color5);
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    font-size: 12px;
+}
+
+.info > ul > li > a > i{
+    color: var(--color3);
+    font-size: 16px;
+}
+
+.cvBtn{
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+}

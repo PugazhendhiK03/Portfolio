@@ -1,0 +1,66 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.about > .aboutTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 3px solid var(--color2);
+    display: block;
+}
+
+.aboutContent{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color6);
+    text-align: justify;
+    margin: 2rem 1rem;
+}
+
+.about > .IdoTitle{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color5);
+}
+
+.whatIdo{
+    display: grid;
+    margin: 1rem;
+    gap: .5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.whatIdo > span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color5);
+}
+
+.whatIdoContainer{
+    background: var(--color2);
+    padding: .9rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    box-shadow: 0 1px 12px var(--box-shadow);
+}
+
+.whatIdoContainer > span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.whatIdoContainer > p{
+    font-size: 12px;
+    color: var(--color6);
+}
+
+.about > .resume{
+    background: var(--color3);
+    margin: 1rem;
+}

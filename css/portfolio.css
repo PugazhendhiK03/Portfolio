@@ -1,0 +1,41 @@
+.portfolio{
+    display: flex;
+    padding: 2rem;
+}
+
+.portfolio > .portfolioTitle{
+    color: var(--color5);
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 3px solid var(--color2);
+    display: block;
+}
+
+.portfolioContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.portfolioBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.portfolioBox > span{
+    font-weight: 500;
+    color: var(--color5);
+}
+
+.portfolioBox > p{
+    font-size: 14px;
+    color: var(--color6);
+    font-weight: 400;
+}

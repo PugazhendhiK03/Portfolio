@@ -1,0 +1,70 @@
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.skills > .skillsTitle{
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 3px solid var(--color2);
+    margin: 2rem 0 0 2rem;
+    display: block;
+}
+
+.skillContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem;
+}
+
+.skillContainer > .skillBox{
+    background: var(--color7);
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0 1px 12px var(--box-shadow);
+    gap: 1.5rem;
+}
+
+.skillContainer > .skillBox > i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.skillContainer > .skillBox > span{
+    color: var(--color6);
+}
+
+.skillContainer > .skillBox:hover{
+    transform: scale(1.1);
+
+}
+
+.skillContainer > .skillBox > .fa-html5{
+    color: #ff7d03;
+}
+
+.skillContainer > .skillBox > .fa-css3-alt{
+    color: #033eff;
+}
+
+.skillContainer > .skillBox > .fa-square-js{
+    color: #eeff03;
+}
+
+.skillContainer > .skillBox > .fa-react{
+    color: #03cdff;
+}
+
+.skillContainer > .skillBox > .fa-git-alt{
+    color: #ff4a03;
+}
